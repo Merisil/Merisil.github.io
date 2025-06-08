@@ -17,7 +17,7 @@ const links = [
   },
 ]
 
-const contactsLinks = [
+/* const contactsLinks = [
   {
     name: 'Гитхаб',
     link: 'https://github.com/Merisil'
@@ -30,7 +30,7 @@ const contactsLinks = [
     name: 'ВК',
     link: 'https://vk.com/mariavasiljewa'
   },
-];
+]; */
 
 
 function getElement(name, link) {
@@ -61,5 +61,5 @@ function renderLinks(links, selector) {
 }
 
 renderLinks(links, 'ul.navigation');
-renderLinks(contactsLinks, 'ol.navigation');
+// renderLinks(contactsLinks, 'ol.navigation');
 

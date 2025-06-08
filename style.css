@@ -5,7 +5,7 @@ body {
   font-variation-settings:
     "wdth" 100;
 
-  background-color: #d5eafc;
+  background-color: #d5eafc !important;
 }
 
 li {
